@@ -1,5 +1,6 @@
 import spring from './image/spring.jpg'
-function Header(props) {
+
+const Header = () => {
     return (
         <div class="relative h-64  overflow-hidden  bg-indigo-500">
             <div class="absolute z-30 flex w-full h-full">
@@ -20,9 +21,6 @@ function Header(props) {
                     <img alt="Snowy mountain lake" class="object-container min-w-full h-full blur-sm" src={spring}/>
                 </div>
         </div>
-
-
-    );
+   );
 }
-
 export default Header;
