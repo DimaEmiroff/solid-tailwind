@@ -17,6 +17,7 @@
     "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
+    "solid-dismiss": "^1.2.1",
     "solid-js": "^1.4.7",
     "solid-slider": "^1.3.3",
     "swiper": "^8.3.2"

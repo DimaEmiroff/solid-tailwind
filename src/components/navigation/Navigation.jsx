@@ -1,4 +1,5 @@
-import {createMemo} from "solid-js";
+import {createMemo, For} from "solid-js";
+import SignInModal from "../modalForm/SignIn_modal";
 
 const navigation = createMemo(() => [
     { name: 'Main', href: '#', current: true },
@@ -31,9 +32,12 @@ const Navigation = () => {
                     </a>
                 ))}
                 </For>
-                     <button
-                         type={'button'}
-                         class={'inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out'}>Sign in</button>
+                     {/*<button*/}
+                     {/*    type={'button'}*/}
+                     {/*    class={'inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out'}>*/}
+                     {/*    Sign in*/}
+                     {/*</button>*/}
+                    <SignInModal/>
             </div>
             <div class="flex justify-center ">
                 <div class=" xl:w-66 mr-2">
