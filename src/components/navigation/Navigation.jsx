@@ -6,7 +6,7 @@ import MenuItems from "./menuItems/MenuItems";
 
 const Navigation = () => {
     return (
-        <div class ="flex items-baseline justify-between space-x-4 bg-slate-500 w-full">
+        <div class ="flex items-baseline space-x-4 bg-slate-500 w-full">
                 <Navbar />
             <div class="hidden ml-3 relative bg-slate-500 space-x-4 md:flex items-baseline lg:w-full">
                 <MenuItems />

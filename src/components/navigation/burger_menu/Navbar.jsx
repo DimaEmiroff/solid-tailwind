@@ -12,7 +12,8 @@ const Navbar = () => {
                 </div>
                 { openMenu()
                 ? (
-                        <div class='flex z-50 m-6 bg-slate-500 flex-row space-x-4 absolute w-20 '> <MenuItems /> </div>
+                        <div class='flex z-50 m-6 bg-slate-500 flex-row space-x-4 absolute w-20'> <MenuItems /> </div>
+
                    ) : null }
             </div>
         );
