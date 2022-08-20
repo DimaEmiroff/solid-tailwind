@@ -1,4 +1,3 @@
-import "solid-slider/slider.css";
 import { Swiper, SwiperSlide } from 'swiper/solid';
 import { Autoplay, Pagination, Navigation, Zoom} from "swiper";
 import pole from './image/9508.jpg'
@@ -30,7 +29,7 @@ const SliderThemes = () => {
             spaceBetween={15}
             autoHeight={true}
             zoom={true}
-            navigation={true}
+            navigation={false}
             pagination={{
                 clickable: true,
             }}

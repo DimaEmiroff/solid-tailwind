@@ -1,7 +1,8 @@
 import Dismiss from "solid-dismiss";
 import { createSignal } from "solid-js";
+import Button from "../button/Button";
 
-const ModalFormLoginIs = () => {
+const LoginModalForm = () => {
         const [open, setOpen] = createSignal(false);
         let btnOpen;
         let btnClose;
@@ -10,8 +11,8 @@ const ModalFormLoginIs = () => {
             <button
                 ref={btnOpen}
                 type={'button'}
-                class={'flex-shrink-0 bg-blue-600 hover:bg-blue-700 border-blue-600\n' +
-                    '                          hover:border-blue-700 text-sm border-4 text-white py-1 px-8 rounded'}>
+                className={'flex-shrink-0 bg-blue-600 hover:bg-blue-700 border-blue-600\n' +
+                    '                          hover:border-blue-700 text-sm border-4 text-white py-1 px-8 rounded ml-auto'}>
                 Sign in
             </button>
         <Dismiss
@@ -117,5 +118,5 @@ const ModalFormLoginIs = () => {
     </>
   );
 };
-export default ModalFormLoginIs;
+export default LoginModalForm;
 

@@ -1,7 +1,7 @@
 import {createMemo, For} from "solid-js";
 
 const navigation = createMemo(() => [
-    { name: 'Main', href: '#', current: true },
+    { name: 'Main', href: '/home', current: true },
     { name: 'Theme', href: '#block_theme', current: false },
     { name: 'Projects', href: '#', current: false },
     { name: 'Team', href: '#', current: false },

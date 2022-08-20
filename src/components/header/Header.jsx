@@ -5,7 +5,17 @@ const Header = () => {
         <div class="relative h-64 overflow-hidden bg-indigo-500">
             <div class="absolute z-30 flex w-full h-full">
                 <div class="relative z-30 w-5/6 px-6 py-8 text-white md:py-10 md:w-1/2">
-                    <h2 class="text-5xl">Solid & Tailwind project</h2>
+                    <h2 class="text-5xl">Tailwind project</h2>
+                    <p class="text-sm mt-2">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;<br />
+                        &quot;http://www.w3.org/&quot;&gt;<br />
+                        &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;<br />
+                        &lt;head&gt;<br />
+                        &lt;meta http-equiv=&quot;Content-Type&quot;
+                        content=&quot;text/html; charset=utf-8&quot; /&gt;<br />
+                        &lt;title&gt;Tailwind project&lt;/title&gt;<br />
+                        &lt;/head&gt;<br />
+                        &lt;/html&gt;
+                    </p>
                 </div>
                 <div class="absolute top-0 right-0 flex w-full h-full">
                     <div class="w-1/3 h-full bg-indigo-500"></div>
