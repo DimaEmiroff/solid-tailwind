@@ -1,5 +1,5 @@
 import Navigation from "./components/navigation/Navigation";
-import {Route, Routes, DefaultRoute} from "@gh0st-work/solid-js-router";
+import {Route, Routes, Navigate} from "@gh0st-work/solid-js-router";
 import NotFound from "./components/pages/not_found/NotFound";
 import HomePage from "./components/pages/home/HomePage";
 import Vue from "./components/pages/theme_items/vue/Vue";
@@ -25,13 +25,15 @@ const App = () => {
                 <Route path={'/tailwind_js'}>
                     <JavaScript />
                 </Route>
-                <Route path={'/home'}>
+                <Route path={'/home'} fallback={false}>
+                    <HomePage/>
+                </Route>
+                <Route path={'/'} fallback={false}>
                     <HomePage/>
                 </Route>
                 <Route path={'*'}>
                     <NotFound/>
                 </Route>
-                <DefaultRoute to={'/home'}/>
             </Routes>
         </>
     );
