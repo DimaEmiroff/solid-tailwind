@@ -23,7 +23,7 @@ const themes = createMemo (() => [
     {
         id: 3,
         name: 'Tailwind-React',
-        href: '/react',
+        href: '/tailwind-react',
         imageSrc: 'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/notus-pro-react/notus-pro-react.jpg',
         imageAlt: "CSS-framework",
         price: '$299',
@@ -32,7 +32,7 @@ const themes = createMemo (() => [
     {
         id: 4,
         name: 'Tailwind-JavaScript',
-        href: '/tailwind_js',
+        href: '/tailwind-js',
         imageSrc: 'https://s3.amazonaws.com/creativetim_bucket/products/392/original/opt_notus_js_thumbnail.jpg?1602083018',
         imageAlt: "CSS-framework",
         price: '$399',

@@ -19,10 +19,10 @@ const App = () => {
                 <Route path={'/tailwind-svetle'}>
                     <Svetle />
                 </Route>
-                <Route path={'/react'}>
+                <Route path={'/tailwind-react'}>
                     <React />
                 </Route>
-                <Route path={'/tailwind_js'}>
+                <Route path={'/tailwind-js'}>
                     <JavaScript />
                 </Route>
                 <Route path={'/home'}>
