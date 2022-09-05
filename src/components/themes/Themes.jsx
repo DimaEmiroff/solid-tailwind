@@ -73,11 +73,11 @@ const Themes = () => {
                                             </div>
                                             <div class={'flex flex-col'}>
                                                 <div class={'pb-1 flex justify-end'}>
-                                                    <p className="text-sm font-medium text-gray-900">
+                                                    <p class="text-sm font-medium text-gray-900">
                                                         {theme.price}
                                                     </p>
                                                 </div>
-                                                <Button/>
+                                                    <Button/>
                                             </div>
                                         </div>
                                     </div>
