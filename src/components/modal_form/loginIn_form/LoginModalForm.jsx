@@ -1,6 +1,6 @@
 import Dismiss from "solid-dismiss";
 import { createSignal } from "solid-js";
-import Button from "../button/Button";
+
 
 const LoginModalForm = () => {
         const [open, setOpen] = createSignal(false);
@@ -12,7 +12,7 @@ const LoginModalForm = () => {
                 ref={btnOpen}
                 type={'button'}
                 className={'flex-shrink-0 bg-blue-600 hover:bg-blue-700 border-blue-600\n' +
-                    '                          hover:border-blue-700 text-sm border-4 text-white py-1 px-8 rounded ml-auto'}>
+                    'hover:border-blue-700 text-sm border-4 text-white py-1 px-8 rounded ml-auto'}>
                 Sign in
             </button>
         <Dismiss
@@ -25,7 +25,7 @@ const LoginModalForm = () => {
                 <form>
                     <div class="form-group mb-6">
                         <label htmlFor="exampleInputEmail2"
-                               class="form-label inline-block mb-2 text-gray-700">Email address</label>
+                               class="form-label inline-block mb-2 text-gray-700">Login</label>
                         <input type="email"
                                class="form-control
                                       block
@@ -45,7 +45,7 @@ const LoginModalForm = () => {
                                       focus:border-blue-600 focus:outline-none"
                                       id="exampleInputEmail2"
                                       aria-describedby="emailHelp"
-                                      placeholder="Enter email"/>
+                                      placeholder="Enter login"/>
                     </div>
                     <div class="form-group mb-6">
                         <label htmlFor="exampleInputPassword2"

@@ -1,5 +1,5 @@
 import Navigation from "./components/navigation/Navigation";
-import {Route, Routes, DefaultRoute} from "@gh0st-work/solid-js-router";
+import { Route, Routes } from "@gh0st-work/solid-js-router";
 import NotFound from "./components/pages/not_found/NotFound";
 import HomePage from "./components/pages/home/HomePage";
 import Vue from "./components/pages/theme_items/vue/Vue";
@@ -28,7 +28,9 @@ const App = () => {
                 <Route path={'/home'}>
                     <HomePage/>
                 </Route>
-                <DefaultRoute to={'/'}/>
+                <Route path={'/'}>
+                    <HomePage/>
+                </Route>
                 <Route path={'*'}>
                     <NotFound/>
                 </Route>

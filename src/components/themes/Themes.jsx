@@ -1,5 +1,6 @@
 import {createMemo, For} from "solid-js";
 import { Link } from "@gh0st-work/solid-js-router";
+import Button from "../button/Button";
 
 const themes = createMemo (() => [
     {
@@ -66,13 +67,18 @@ const Themes = () => {
                                             <div>
                                                 <a name={'block_theme'}> </a>
                                                 <p> {theme.name} </p>
-                                                <p class=" mt-1 text-sm flex text-gray-500">
+                                                <p class="mt-1 text-sm flex text-gray-500">
                                                     {theme.color}
                                                 </p>
                                             </div>
-                                                <p class ="text-sm font-medium text-gray-900">
-                                                    {theme.price}
-                                                </p>
+                                            <div class={'flex flex-col'}>
+                                                <div class={'pb-1 flex justify-end'}>
+                                                    <p className="text-sm font-medium text-gray-900">
+                                                        {theme.price}
+                                                    </p>
+                                                </div>
+                                                <Button/>
+                                            </div>
                                         </div>
                                     </div>
                                 )}

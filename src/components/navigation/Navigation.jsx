@@ -1,4 +1,4 @@
-import LoginModalForm from "../loginIn_form/LoginModalForm";
+import LoginModalForm from "../modal_form/loginIn_form/LoginModalForm";
 import FieldSearch from "../field_search/FieldSearch";
 import Navbar from "./mobile_menu/Navbar";
 import MenuItems from "./menuItems/MenuItems";
