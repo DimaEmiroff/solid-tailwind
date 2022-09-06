@@ -6,11 +6,13 @@ import Vue from "./components/pages/theme_items/vue/Vue";
 import Svetle from "./components/pages/theme_items/svetle/Svetle";
 import React from "./components/pages/theme_items/react/React";
 import JavaScript from "./components/pages/theme_items/js/JS";
+import Cart from "./components/cart/Cart";
 
 
 const App = () => {
   return (
         <>
+            <Cart />
             <Navigation />
             <Routes>
                 <Route path={'/tailwind-vue'}>
