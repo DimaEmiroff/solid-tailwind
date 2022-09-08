@@ -3,7 +3,6 @@ import MenuItems from "../menuItems/MenuItems";
 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = createSignal(false);
-    console.log(openMenu())
         return (
             <div class={'flex flex-col space-x-4 md:hidden px-6 py-3 w-18'}>
                 <div onClick={() => setOpenMenu(!openMenu())} class="md:hidden my-auto space-y-1 hover:cursor-pointer" >

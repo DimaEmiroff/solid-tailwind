@@ -41,7 +41,7 @@ const themes = createMemo (() => [
     },
 ])
 
-const Themes = () => {
+const Themes = (name) => {
     return (
                 <div class="bg-white">
                     <div class="max-w-fit mx-auto py-9 px-4 sm:px-2 max-w-screen-2xl">
