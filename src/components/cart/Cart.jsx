@@ -6,7 +6,7 @@ import {createSignal} from "solid-js";
 const Cart = () => {
     const [openCart, setOpenCart] = createSignal(false);
     const [count, setCount] = createSignal(0);
-
+    let btnClose;
     const increment = () => {
         setCount(count => (
             Math.max(count - 1, 0)
